@@ -1,0 +1,10 @@
+.container{
+  display: inline-flexbox;
+  background-color: #f0eff4;
+  width: 500px;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+}
+

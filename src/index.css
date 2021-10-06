@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  overflow-y: scroll;
+  background-color: #f0eff4;
+}
+
+nav{
+  display: inline-flexbox;
+  width: 100%;
+  background-color: rgb(109, 109, 109);
+  color: white;
+}
+
+li{
+  display: inline;
+  font-size: 50px;
+}
+
+#redirectToLogin{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: x-large;
+}
+
+#menuLink{
+  float: right;
+}
+
+.container {
+  max-width: 500px;
+  margin: 30px auto;
+  height: 900px;
+  min-height: 300px;
+  border: 1px solid steelblue;
+  padding: 30px;
+
+}
+.cardDiv{
+  display: inline-block;
+  width: 30%;
+  max-width: 400px;
+  height: 100%;
+  margin: 5% 10%;
+  border-radius: 20px;
+  border-style: solid;
+  border-width: 5px;
+}
+
+.cardDiv * {
+  text-align: center;
+}
+
+.cardDiv img{
+  margin-left: 37%;
+}
+
+img{
+  display: block;
+  align-self: center;
+  margin-bottom: 20px;
+  margin-left: 50px;
+}
+
+.btn {
+  display: block;
+  background-color: #87399e;
+  color: #fff;
+  border: none;
+  padding: 10px 10px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: inherit;
+  width: 100%;
+}
+
+.btn:hover{
+  background-color: #6f2f82;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+.btn-block {
+  display: block;
+  width: 100%;
+}
+
+.login-form {
+  margin-bottom: 40px;
+}
+
+.form-control {
+  margin: 20px 0;
+}
+
+.form-control label {
+  display: block;
+}
+
+.form-control input {
+  display: block;
+  width: 100%;
+  height: 40px;
+  margin: 5px;
+  padding: 3px 7px;
+  font-size: 17px;
+}
+
+.form-control-check {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.form-control-check label {
+  flex: 1;
+}
+
+.form-control-check input {
+  flex: 2;
+  height: 20px;
+}
+
+.checkRemember{
+  display: flex;
+  flex-direction: row;
+  max-width: 200px;
+}
